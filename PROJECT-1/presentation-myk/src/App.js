@@ -1,3 +1,5 @@
+import { Article } from "./components"
+
 const App = () => {
     return (
         <div>
