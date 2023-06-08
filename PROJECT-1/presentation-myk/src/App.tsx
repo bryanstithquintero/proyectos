@@ -1,7 +1,9 @@
 import React from "react";
 
-import { Footer, Blog, Possibility, What, Features, Header } from "./containers";
-import { Brand, Cta, Navbar } from './components';
+import { Footer, Blog, Possibility, What, Features, Header } from "./containers/"; //ignorar error
+import { Brand, Cta, Navbar } from './components'; //ignorar error
+import './App.css'
+
 
 const App = () => {
     return (
