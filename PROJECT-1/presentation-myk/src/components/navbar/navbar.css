@@ -1,0 +1,38 @@
+.salsamentaria_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 8rem;
+}
+
+.salsamentaria_navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.salsamentaria_navbar-links-logo {
+    margin-right: 2rem;
+}
+
+.salsamentaria_navbar-links-logo img {
+    width: 210px;
+    height: 190px;
+}
+
+.salsamentaria_navbar-links-containers {
+    display: flex;
+    flex-direction: row;
+}
+
+.salsamentaria_navbar-links-containers p {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 3rem;
+    cursor: pointer;
+}
